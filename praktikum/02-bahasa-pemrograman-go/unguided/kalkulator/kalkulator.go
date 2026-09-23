@@ -4,7 +4,10 @@ import "fmt"
 
 func main() {
 	var a, b int
-	fmt.Scan(&a, &b)
+	fmt.Println("Masukkan angka pertama")
+	fmt.Scan(&a)
+	fmt.Println("Masukkan angka kedua")
+	fmt.Scan(&b)
 
 	tambah := a + b
 	kurang := a - b

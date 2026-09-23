@@ -4,6 +4,7 @@ import "fmt"
 
 func main() {
 	var uang int
+	fmt.Println("Masukkan nominal uang")
 	fmt.Scan(&uang)
 
 	sepuluhRibu := uang / 10000
