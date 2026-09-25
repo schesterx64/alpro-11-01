@@ -81,7 +81,6 @@ func main() {
 #### Deskripsi
 Membuat program yang mampu menukar _input_ a dan b, dan juga sebaliknya. Bagian guided yang diimplementasikan yaitu logika serta _syntax_ pemrograman. Hasil yang diperoleh berupa _output_ yang berkebalikan dari _input_ yang diberikan, misalnya _input_ adalah a dan b, maka _output_ nya adalah b dan a.
 
-<!-- Tambahkan blok file/kode lain sesuai jumlah file pada soal guided -->
 
 ## Unguided
 
@@ -110,8 +109,7 @@ func main() {
 ```
 
 ##### Output
-<!-- Path relatif dari readme.md ke folder unguided/[nama_soal]/output.png, contoh: -->
-![Screenshot Output Unguided](https://github.com/renwxyz/alpro-11-01/blob/main/praktikum/02-bahasa-pemrograman-go/unguided/cacahuang/output.png)
+![Screenshot Output Unguided](https://github.com/schesterx64/alpro-11-01/blob/main/praktikum/02-bahasa-pemrograman-go/unguided/kalkulator/unguided_kalkulator_output.png)
 
 
 #### Deskripsi
@@ -142,12 +140,11 @@ func main() {
 ```
 
 ##### Output
-![Screenshot Output Unguided](unguided/[nama_soal]/output.png)
+![Screenshot Output Unguided](https://github.com/schesterx64/alpro-11-01/blob/main/praktikum/02-bahasa-pemrograman-go/unguided/cacahuang/unguided_cacahuang_output.png)
 
 #### Deskripsi
 Membuat program yang berfungsi untuk menguraikan uang menjadi nominal pecahan (hanya bilangan bulat) 10.000, 5.000, dan 1.000. Bagian guided yang diimplementasikan yakni cara menggunakan variabel integer, `fmt.Println`, `fmt.Scan`, dan algoritma pembagian dan modulo. Bagian unguided yang diimplementasikan yakni cara menggunakan _format specifier_ seperti `%d`, dan `fmt.Printf`. Hasil yang diperoleh berupa _output_ berapa banyak uang nominal 10.000, 5.000, dan 1.000 dari _input_ total uang.
 
-<!-- Duplikasi blok "### [nama_soal]" sesuai jumlah folder soal di dalam unguided -->
 
 
 ## Kesimpulan
