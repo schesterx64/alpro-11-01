@@ -105,7 +105,7 @@ func main() {
 	bagi := a / b
 	modulo := a % b
 
-	fmt.Printf("Tambah = %d, Kurang = %d, Kali = %d, Bagi = %d, Modulo = %d\n", tambah, kurang, kali, bagi, modulo)
+	fmt.Printf("Tambah = %d, Kurang = %d, Kali = %d, Bagi = %d, Modulo = %d", tambah, kurang, kali, bagi, modulo)
 }
 ```
 
@@ -136,7 +136,7 @@ func main() {
 
 	seRibu := sisa / 1000
 
-	fmt.Printf("Sepuluh Ribu = %d, Lima Ribu = %d, Seribu = %d\n", sepuluhRibu, limaRibu, seRibu)
+	fmt.Printf("Sepuluh Ribu = %d, Lima Ribu = %d, Seribu = %d", sepuluhRibu, limaRibu, seRibu)
 }
 ```
 
@@ -157,7 +157,6 @@ Berdasarkan pembahasan teori dan praktikum yang telah dilakukan, dapat ditarik k
 5. Pembacaan _input_ dapat dilakukan dengan menggunakan `fmt.Scan`. Sedangkan, pengeluaran atau _output_ dapat menggunakan `fmt.Print`, `fmt.Println`, ataupun `fmt.Printf`. 
 6. Operasi pembagian pada Go dengan tipe data _integer_ akan secara otomatis membuang bagian desimal, dan membulatkannya kebawah, namun tidak dengan operasi penjumlahan, pengurangan, dan perkalian. Sementara itu, operator modulo berfungsi untuk mencari sisa hasil dari pembagian dua bilangan bulat.
 7. _Format specifier_ `%d` adalah _placeholder_ untuk menyisipkan nilai data _integer_. 
-8. _Newline_ atau `\n` memberi tahu _compiler_ untuk mencetak baris baru. 
 
 
 
