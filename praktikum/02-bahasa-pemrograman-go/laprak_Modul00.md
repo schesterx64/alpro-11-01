@@ -155,7 +155,7 @@ Berdasarkan pembahasan teori dan praktikum yang telah dilakukan, dapat ditarik k
 3. Tipe data didalam Go meliputi _integer_ (`int`), _float_ (`float32`/`float64`), teks (`string`), dan _boolean_ (`bool`).
 4. Deklarasi variabel didalam Go dapat menggunakan deklarasi `var`, atau bisa juga dengan `:=`.
 5. Pembacaan _input_ dapat dilakukan dengan menggunakan `fmt.Scan`. Sedangkan, pengeluaran atau _output_ dapat menggunakan `fmt.Print`, `fmt.Println`, ataupun `fmt.Printf`. 
-6. Operasi pembagian pada Go dengan tipe data _integer_ akan secara otomatis membuang bagian desimal, dan membulatkannya kebawah, namun tidak dengan operasi penjumlahan, pengurangan, dan perkalian. Sementara itu, operator modulo berfungsi untuk mencari sisa hasil dari pembagian dua bilangan bulat.
+6. Operasi aritmatika dasar meliputi penjumlahan (+), pengurangan (-), perkalian (*), dan pembagian (/). Sementara, modulo (%) adalah operator untuk mencari sisa hasil dari pembagian dua bilangan bulat. 
 7. _Format specifier_ `%d` adalah _placeholder_ untuk menyisipkan nilai data _integer_. 
 
 
