@@ -19,7 +19,6 @@ func main() {
 	modulo := y % x
 
 	fmt.Printf("Sisa = %d", modulo)
-
 }
 ```
 
@@ -47,7 +46,6 @@ func main() {
 	kilometer := x * 1.6
 
 	fmt.Println("Konversi ke kilometer", kilometer)
-
 }
 ```
 
@@ -55,6 +53,30 @@ func main() {
 <!-- Path relatif dari readme.md ke folder unguided/[nama_soal]/output.png, contoh: -->
 ![Screenshot Output Unguided](https://github.com/renwxyz/alpro-11-01/blob/main/praktikum/03-tipe-data-dan-instriksi-dasar/tp/konversi/output.png)
 
+### 3. Boolean
+
+```go
+package main
+
+import "fmt"
+
+func main() {
+	var bool bool
+
+	fmt.Println("Masukkan niai Boolean")
+	fmt.Scan(&bool)
+
+	fmt.Println(bool)
+}
+```
+
+##### Output
+<!-- Path relatif dari readme.md ke folder unguided/[nama_soal]/output.png, contoh: -->
+![Screenshot Output Unguided](https://github.com/renwxyz/alpro-11-01/blob/main/praktikum/03-tipe-data-dan-instriksi-dasar/tp/sisa/output.png)
+
+
+#### Deskripsi
+[Tuliskan ringkasan proses praktikum: apa yang dikerjakan, bagian guided dan unguided yang diimplementasikan, serta hasil yang diperoleh.]
 
 #### Deskripsi
 [Tuliskan ringkasan proses praktikum: apa yang dikerjakan, bagian guided dan unguided yang diimplementasikan, serta hasil yang diperoleh.]

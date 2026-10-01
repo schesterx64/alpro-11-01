@@ -11,5 +11,4 @@ func main() {
 	kilometer := x * 1.6
 
 	fmt.Println("Konversi ke kilometer", kilometer)
-
 }

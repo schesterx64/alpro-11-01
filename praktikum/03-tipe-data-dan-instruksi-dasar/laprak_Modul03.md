@@ -3,7 +3,7 @@
 
 ## Dasar Teori
 
-### A. Bahasa Pemrograman Go
+### A. Bahasa 
 Go, atau juga sering disebut dengan Golang, merupakan bahasa pemrograman _open-source_ yang dikembangkan oleh Google, diantaranya Robert Griesemer, Rob Pike, dan Ken Thompson pada tahun 2007, hingga akhirnya dirilis ke publik pada tahun 2009. Go dirancang dengan tujuan performa tinggi namun tetap memiliki sintaks yang ringkas dan mudah dipahami.
 
 ### B. Struktur dan Algoritma Bahasa Pemrograman Go
@@ -85,27 +85,19 @@ Membuat program yang mampu membaca dua _input_ bilangan bulat lalu menukar nilai
 
 ## Unguided
 
-### 1. Kalkulator
+### 1. Konversi Suhu
 
 ```go
-package main
+package main 
 
 import "fmt"
 
 func main() {
-	var a, b int
-	fmt.Println("Masukkan angka pertama")
-	fmt.Scan(&a)
-	fmt.Println("Masukkan angka kedua")
-	fmt.Scan(&b)
+	fmt.Println("Masukkan suhu dalam Celcius:")
+	var C float64
+	fmt.Scan(&C)
 
-	tambah := a + b
-	kurang := a - b
-	kali := a * b
-	bagi := a / b
-	modulo := a % b
-
-	fmt.Printf("Tambah = %d, Kurang = %d, Kali = %d, Bagi = %d, Modulo = %d", tambah, kurang, kali, bagi, modulo)
+	fmt.Println("Konversi ke Reamur:", 0.8 * C)
 }
 ```
 
@@ -116,7 +108,7 @@ func main() {
 #### Deskripsi
 Membuat program yang menghitung hasil penjumlahan, pengurangan, perkalian, pembagian, dan modulo dari dua _input_ yang dimasukkan. Bagian guided yang diimplementasikan adalah cara menggunakan variabel integer, `fmt.Scan`, `fmt.Println`, serta logika matematika dasar. Bagian unguided yang diimplementasikan adalah cara penggunaan _format specifier_ seperti `%d` yang mana digunakan untuk menandai tempat yang akan diisi oleh nilai variabel nantinya, dan `fmt.Printf` untuk mencetak teks dengan format, yang dalam program ini berupa _format specifier_ `%d`. Hasilnya berupa _output_ hasil operasi matematika sederhana dari dua _input_ yang dimasukkan.
 
-### 2. Cacah Uang
+### 2. Konversi Hari
 
 ```go
 package main
@@ -124,19 +116,17 @@ package main
 import "fmt"
 
 func main() {
-	var uang int
-	fmt.Println("Masukkan nominal uang")
-	fmt.Scan(&uang)
+	var hari, sisaHari, minggu, bulan, tahun int
+	fmt.Println("Masukkan jumlah hari:")
+	fmt.Scan(&hari)
 
-	sepuluhRibu := uang / 10000
-	sisa := uang % 10000
-
-	limaRibu := sisa / 5000
-	sisa = sisa % 5000
-
-	seRibu := sisa / 1000
-
-	fmt.Printf("Sepuluh Ribu = %d, Lima Ribu = %d, Seribu = %d", sepuluhRibu, limaRibu, seRibu)
+	tahun = hari / 360
+	hari = hari % 360
+	bulan = hari / 30
+	hari = hari % 30
+	minggu = hari / 7
+	sisaHari = hari % 7
+	fmt.Printf("%d tahun, %d bulan, %d minggu, %d hari\n", tahun, bulan, minggu, sisaHari)
 }
 ```
 

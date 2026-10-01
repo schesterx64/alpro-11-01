@@ -13,5 +13,4 @@ func main() {
 	modulo := y % x
 
 	fmt.Printf("Sisa = %d", modulo)
-
 }
