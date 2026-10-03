@@ -7,5 +7,5 @@ func main() {
 	var C float64
 	fmt.Scan(&C)
 
-	fmt.Println("Konversi ke Reamur:", 0.8 * C)
+	fmt.Println("Konversi ke Reamur:", (4.0/5.0) * C)
 }
