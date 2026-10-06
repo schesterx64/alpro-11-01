@@ -3,19 +3,24 @@
 
 ## Dasar Teori
 
-### A. 
+### A. Pengenalan Tipe Data dan Variabel di Go
 
+#### 1. Tipe Data Dasar
+Go memiliki beberapa tipe data yang masing-masing digunakan untuk menyimpan berbagai jenis nilai yang berbeda. Beberapa diantaranya adalah:
+1. `float32` dan `float64`, keduanya digunakan untuk menyimpan bilangan real atau bilangan desimal.
+2. `int`, digunakan untuk menyimpan bilangan bulat.
+3. `string`, digunakan untuk menyimpan teks dan karakter.
+4. `bool`, digunakan untuk menyimpan nilai _boolean_, seperti `true`, atau `false`.
 
-### B. 
+#### 2. Variabel
+Ada dua cara untuk mendeklarasikan variabel dibahasa Go, yaitu:
+1. Deklarasi eksplisit, dengan cara menggunakan `var`. Deklarasi ini mengharuskan pengguna untuk menentukan tipe data secara manual.
+2. _Short variable declaration_, dengan cara menggunakan `:=`. Deklarasi ini akan secara otomatis menebak dan menentukan tipe data.
 
-#### 1. 
+### B. Pengenalan _Package_ dan _Function_ di Go
+Setiap program di Go harus memiliki setidaknya satu `package`. Salah satu _package_ utama yaitu `package main`. `package main` merupakan _package_ yang pertama kali dieksekusi oleh _compiler_ Go. 
 
-
-#### 2. 
-
-
-#### 3. 
-
+Didalam sebuah _package_ juga harus memiliki setidaknya satu `func` atau _function_. Sama seperti _package_, salah satu _function_ utama yaitu `func main`. `func main` juga merupakan _function_ yang paling pertama dieksekusi oleh _comipler_ Go.
 
 ## Guided
 
@@ -44,7 +49,7 @@ func main() {
 }
 ```
 #### Deskripsi
-Membuat program yang memecah nominal _input_ menjadi pecahan sepuluh ribu, lima ribu, dan seribu. Bagian guided yang diimplementasikan yaitu operasi pembagian dan modulo. Hasil yang diperoleh berupa jumlah uang sepuluh ribu, lima ribu, dan seribu dari input awal.
+Membuat program yang memecah nominal _input_ menjadi pecahan sepuluh ribu, lima ribu, dan seribu. Bagian guided yang diimplementasikan yaitu operasi pembagian dan modulo. Hasil yang diperoleh berupa jumlah uang sepuluh ribu, lima ribu, dan seribu dari _input_ awal.
 
 ### 2. Nama File: konversi.go
 
@@ -106,7 +111,7 @@ func main() {
 ```
 
 ##### Output
-![Screenshot Output Unguided](https://github.com/schesterx64/alpro-11-01/blob/main/praktikum/03-tipe-data-dan-instruksi-dasar/unguided/konversiSuhu/unguided_konversiSuhu_output.png)
+![Screenshot Output Unguided](.\unguided\konversiSuhu\unguided_konversiSuhu_output.png)
 
 
 #### Deskripsi
@@ -136,7 +141,7 @@ func main() {
 ```
 
 ##### Output
-![Screenshot Output Unguided](https://github.com/schesterx64/alpro-11-01/blob/main/praktikum/03-tipe-data-dan-instruksi-dasar/unguided/konversiHari/unguided_konversiHari_output.png)
+![Screenshot Output Unguided](.\unguided\konversiHari\unguided_konversiHari_output.png)
 
 #### Deskripsi
 Membuat program yang melakukan konversi jumlah hari menjadi tahun, bulan, minggu, dan sisa hari. Bagian guided yang diimplementasikan operasi pembagian dan modulo. Bagian unguided yang diimplementasikan yaitu penggunaan _input-specifier_ `%d`. Hasil yang diperoleh berupa jumlah tahun, bulan, minggu, dan hari yang tersisa dari _input_ awal menggunakan operasi pembagian dan modulo.
@@ -144,10 +149,9 @@ Membuat program yang melakukan konversi jumlah hari menjadi tahun, bulan, minggu
 
 ## Kesimpulan
 Berdasarkan pembahasan teori dan praktikum yang telah dilakukan, dapat ditarik kesimpulan bahwa:
-
-
-
+1. Tipe data dasar di Go meliputi: `int` untuk bilangan bulat, `float32` dan `float64` untuk bilangan real atau desimal, `string` untuk teks dan karakter, dan `bool` untuk _boolean_.
+2. Dua cara deklarasi variabel di Go: `var` dan `:=`.
+3. Setiap program di Go harus memiliki `package main` dan `func main` sebagai titik awal yang akan dieksekusi paling pertama.
 
 ## Referensi
-1. Go Team. (2026). _The Go Programming Language Specification_. Google LLC. Diakses pada 24 September 2026 melalui https://go.dev/ref/spec.
-2. Go Team. (2026). _Standard Library Documentation_. Google LLC. Diakses pada 24 September 2026 melalui https://pkg.go.dev/fmt#section-documentation.
+1. Go Team. (2026). _The Go Programming Language Specification_. Google LLC. Diakses pada 04 Oktober 2026 melalui https://go.dev/ref/spec.
