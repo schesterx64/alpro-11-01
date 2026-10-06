@@ -111,7 +111,7 @@ func main() {
 ```
 
 ##### Output
-![Screenshot Output Unguided](.\unguided\konversiSuhu\unguided_konversiSuhu_output.png)
+![Screenshot Output Unguided](./unguided/konversiSuhu/unguided_konversiSuhu_output.png)
 
 
 #### Deskripsi
@@ -141,7 +141,7 @@ func main() {
 ```
 
 ##### Output
-![Screenshot Output Unguided](.\unguided\konversiHari\unguided_konversiHari_output.png)
+![Screenshot Output Unguided](./unguided/konversiHari/unguided_konversiHari_output.png)
 
 #### Deskripsi
 Membuat program yang melakukan konversi jumlah hari menjadi tahun, bulan, minggu, dan sisa hari. Bagian guided yang diimplementasikan operasi pembagian dan modulo. Bagian unguided yang diimplementasikan yaitu penggunaan _input-specifier_ `%d`. Hasil yang diperoleh berupa jumlah tahun, bulan, minggu, dan hari yang tersisa dari _input_ awal menggunakan operasi pembagian dan modulo.
