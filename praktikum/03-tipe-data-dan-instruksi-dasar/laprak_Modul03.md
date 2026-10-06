@@ -20,7 +20,7 @@ Ada dua cara untuk mendeklarasikan variabel dibahasa Go, yaitu:
 ### B. Pengenalan _Package_ dan _Function_ di Go
 Setiap program di Go harus memiliki setidaknya satu `package`. Salah satu _package_ utama yaitu `package main`. `package main` merupakan _package_ yang pertama kali dieksekusi oleh _compiler_ Go. 
 
-Didalam sebuah _package_ juga harus memiliki setidaknya satu `func` atau _function_. Sama seperti _package_, salah satu _function_ utama yaitu `func main`. `func main` juga merupakan _function_ yang paling pertama dieksekusi oleh _comipler_ Go.
+Didalam sebuah _package_ juga harus memiliki setidaknya satu `func` atau _function_. Sama seperti _package_, salah satu _function_ utama yaitu `func main`. `func main` juga merupakan _function_ yang paling pertama dieksekusi oleh _complier_ Go.
 
 ## Guided
 
