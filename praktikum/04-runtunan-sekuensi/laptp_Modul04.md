@@ -1,4 +1,4 @@
-# <h1 align="center">Tugas Pendahuluan Modul 04 - </h1>
+# <h1 align="center">Tugas Pendahuluan Modul 04 - Runtunan dan Sekuensi</h1>
 <p align="center">Zeda Briyan Dinillah - 109092600014</p>
 
 ### 1. Evaluasi Ekspresi Kontrol dalam Go
@@ -28,11 +28,11 @@ func main() {
 ```
 
 ##### Output
-![Screenshot Output Unguided](./)
+![Screenshot Output Unguided](./tp/evaluasiEkspresiKontrol/pendahuluan_evaluasiEkspresiKontrol_output.png)
 
 
 #### Deskripsi
-Program untuk 
+Program untuk memeriksa apakah ekspresi kontrol bernilai `true` atau `false`.
 
 ### 2. Tracing: Evaluasi Pernyataan Kondisi
 
@@ -80,10 +80,10 @@ func main() {
 ```
 
 ##### Output
-![Screenshot Output Unguided](./)
+![Screenshot Output Unguided](./tp/evaluasiPernyataanKondisi/pendahuluan_evaluasiPernyataanKondisi_output.png)
 
 #### Deskripsi
-Program untuk 
+Program untuk menghitung nilai akhir dari pernyataan-pernyataan kondisi.
 
 ### 3. Menentukan Jumlah Hari dalam Sebulan Berdasarkan Tahun dan Bulan
 
@@ -121,17 +121,40 @@ func main() {
 ```
 
 ##### Output
-![Screenshot Output Unguided](./)
+![Screenshot Output Unguided](./tp/jumlahHari/pendahuluan_jumlahHari_output.png)
 
 
 #### Deskripsi
-Program untuk 
+Program untuk menentukan jumlah hari dalam satu bulan berdasarkan _input_ tahun dan bulan.
 
 ### 4. Switch Case
 
 ```go
+package main
 
+import "fmt"
+
+func main() {
+	var hari string
+	fmt.Print("Masukkan nama hari: ")
+	fmt.Scan(&hari)
+
+	switch hari {
+	case "Senin", "Rabu", "Kamis", "Jumat":
+		fmt.Println("Masuk kuliah.")
+	case "Selasa", "Sabtu", "Minggu":
+		fmt.Println("Libur.")
+	default:
+		fmt.Println("Hari tidak valid.")
+	}
+}
 ```
+#### Output
+![Screenshot Output Unguided](./tp/switchCase/pendahuluan_switchCase_output.png)
+
+
+#### Deskripsi
+Program untuk memeriksa apakah _input_ nama hari memiliki jadwal mata kuliah atau merupakan hari libur.
 
 ## Kesimpulan
-Kesimpulan dari tugas pendahuluan 
+Kesimpulan dari tugas pendahuluan yaitu penerapan _statement_ `switch`, `case`, dan `default` dalam sebuah program.
