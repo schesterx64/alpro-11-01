@@ -3,15 +3,13 @@
 
 ## Dasar Teori
 
-### A. 
+### A. Pengenalan Runtunan dan Sekuensi
+Go merupakan bahasa yang menggunakan runtunan dan sekuensi. Go menjalankan program sesuai dengan runtunan dalam baris kode, yang pada umumnya menjalankan program dari baris teratas terlebih dahulu. 
 
-#### 1. 
-
-
-#### 2. 
-
-
-### B. 
+### B. Penggunaan `switch`, `case`, dan `default`.
+`switch` merupakan _statement_ yang digunakan untuk membuat percabangan logika. _Statement_ ini membandingkan suatu nilai dengan beberapa kemungkinan lain. `switch` memiliki fungsi yang hampir sama dengan _statement_ `if`, yaitu mengevaluasi nilai, akan tetapi lebih mudah dibaca. 
+`case` menyatakan kondisi atau nilai yang jika sesuai dengan nilai dari `switch`, maka kode didalam `case` akan dieksekusi.
+`default` adalah _fallback_ dari _statement_ `switch`. Kode didalam `default` akan dieksekusi apabila tidak ada satupun nilai `case` yang sama dengan nilai `switch`.
 
 
 ## Guided
@@ -209,7 +207,7 @@ func main() {
 
 
 #### Deskripsi
-Membuat program yang secara fungsi sama dengan program _guided_ grade.go, akan tetapi, program ini menggunakan _statement_ `switch`, berbeda dengan program _guided_ grade.go yang menggunakan _statement_ `if`.
+Membuat program yang secara fungsi sama dengan program _guided_ `grade.go`, akan tetapi, program ini menggunakan _statement_ `switch`, berbeda dengan program _guided_ `grade.go` yang menggunakan _statement_ `if`.
 
 
 ### 2. Pajak
@@ -244,7 +242,7 @@ func main() {
 ![Screenshot Output Unguided](./unguided/pajak/unguided_pajak_output.png)
 
 #### Deskripsi
-Membuat program yang menghitung total pajak penghasilan seseorang berdasarkan dari total penghasilannya. Kemudian, penghasilan digolongkan menjadi:
+Membuat program yang menghitung total pajak penghasilan seseorang berdasarkan dari total penghasilannya. Perhitungan penghasilan dan jumlah pajak digolongkan menjadi:
 |No | Penghasilan (Juta)| Komponen Pajak |Persentase|
 |:-:|	:---:		| :---			 | :---:	|	
 |1.	|	≤ 50 		|	Seluruh penghasilan	|		5%	|
@@ -261,7 +259,10 @@ Membuat program yang menghitung total pajak penghasilan seseorang berdasarkan da
 Setelah menghitung total pajak, program kemudian memberikan keluaran berupa total pajak yang harus dibayarkan.
 
 ## Kesimpulan
-
+Berdasarkan dasar teori dan praktikum yang telah dilakukan, dapat ditarik kesimpulan bahwa:
+1. Runtunan dan sekuensi merupakan konsep dasar dibahasa Go yang dimana kode dieksekusi berdasarkan urutan dari atas kebawah.
+2. Selain _statement_ `if`, Go juga memiliki `switch` sebagai percabangan logika.
+3. `switch` berfungsi mengevaluasi nilai. `case` akan mengeksekusi kode didalamnya jika nilainya sama dengan nilai `switch`. `default` merupakan _fallback_ yang akan mengeksekusi kode didalamnya jika nilai `switch` dan `case` tidak ada yang sesuai satupun.
 
 ## Referensi
 1. Go Team. (2026). _The Go Programming Language Specification_. Google LLC. Diakses pada 04 Oktober 2026 melalui https://go.dev/ref/spec.
