@@ -265,4 +265,4 @@ Berdasarkan dasar teori dan praktikum yang telah dilakukan, dapat ditarik kesimp
 3. `switch` berfungsi mengevaluasi nilai. `case` akan mengeksekusi kode didalamnya jika nilainya sama dengan nilai `switch`. `default` merupakan _fallback_ yang akan mengeksekusi kode didalamnya jika nilai `switch` dan `case` tidak ada yang sesuai satupun.
 
 ## Referensi
-1. Go Team. (2026). _The Go Programming Language Specification_. Google LLC. Diakses pada 04 Oktober 2026 melalui https://go.dev/ref/spec.
+1. Go Team. (2026). _The Go Programming Language Specification_. Google LLC. Diakses pada 08 Oktober 2026 melalui https://go.dev/ref/spec.
