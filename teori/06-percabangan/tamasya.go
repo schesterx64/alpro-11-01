@@ -6,7 +6,7 @@ func main() {
 	fmt.Scan(&n)
 	mobil = n / 7
 
-	if n & 7 != 0 {
+	if n % 7 != 0 {
 		mobil++
 	}
 	fmt.Println("Jumlah mobil yang diperlukan:", mobil)
