@@ -13,5 +13,7 @@ func main() {
 		fmt.Println("Nilai: B")
 	} else if nilai >= 85 && nilai <= 100 {
 		fmt.Println("Nilai: A")
+	} else {
+		fmt.Println("Nilai tidak valid")
 	}
 }
