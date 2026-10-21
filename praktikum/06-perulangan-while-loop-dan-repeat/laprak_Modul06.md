@@ -154,8 +154,8 @@ Membuat program simulasi mesin ATM dengan ketentuan:
 1. Pengguna diharuskan untuk memasukkan PIN untuk mengakses ATM.
 2. PIN ATM yang benar adalah `1234`
 3. Batas maksimal salah memasukkan PIN adalah 3 kali sebelum kartu ATM terblokir dan program berakhir.
-4. Jika PIN yang dimasukkan benar, maka akan muncul 3 menu ATM yang bisa pengguna gunakan, yaitu `1` untuk melihat saldo, `2` untuk menarik uang, dan `3` untuk keluar
-5. Jumlah saldo awal adalah 10.000.000
+4. Jika PIN yang dimasukkan benar, maka akan muncul 3 menu ATM yang bisa pengguna gunakan, yaitu `1` untuk melihat saldo, `2` untuk menarik uang, dan `3` untuk keluar.
+5. Jumlah saldo awal adalah 10.000.000.
 
 Program ini menggunakan perulangan `while` selama proses login (memasukkan PIN), karena program akan terus mengulang selama belum mencapai 3 kali percobaan. Perulangan `while` juga digunakan pada menu ATM, selama pengguna belum menekan `3` untuk keluar, program akan terus melakukan proses pengulangan.
 
