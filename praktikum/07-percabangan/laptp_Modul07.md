@@ -1,4 +1,4 @@
-# <h1 align="center">Tugas Pendahuluan Modul 06 - Percabangan</h1>
+# <h1 align="center">Tugas Pendahuluan Modul 07 - Percabangan</h1>
 <p align="center">Zeda Briyan Dinillah - 109092600014</p>
 
 ### 1. Perbedaan
