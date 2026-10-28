@@ -32,7 +32,11 @@ func main() {
 
 	if layanan == "Express" {
 		total += total / 2
+	} else if layanan != "Reguler" {
+		fmt.Println("Layanan tidak valid")
+		return
 	}
+	
 	fmt.Println(beratBulat)
 	fmt.Println(total)
 }
