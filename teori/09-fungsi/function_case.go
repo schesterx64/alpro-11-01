@@ -1,23 +1,43 @@
 package main
+
 import "fmt"
 
+func hitung(x, y int) int { // x dan y adalah sebuah parameter
+	hasil := 2*x + y - 5
+	return hasil
+}
 
-func hitung(x, y int) int {
-	return 2 * x + y - 5
+func kurang(x, y float32) float32 {
+	hasil := x - y
+	return hasil
+}
+
+func ambangAtas() int {
+	return 60
+}
+
+// hitung itu adalah nama fungsi
+// {hasil/proses} ini adalah instruksi atau perintah atau proses
+// kamus lokal variabel x, y dengan tipe integer
+
+func lulus(nilai int) bool {
+	return nilai >= ambangAtas()
+}
+
+func statusLulus(nilai int) string {
+	if lulus(nilai) {
+		return "Lulus"
+	} else {
+		return "Tidak Lulus"
+	}
 }
 
 func main() {
-	x1, y1 := 10, 2
-	hasil1 := 3 * x1 + y1 - 5
-
-	x2, y2 := 30, 20
-	hasil2 := 3 * x2 + y2 - 5
-
-	x3, y3 := 50, 21
-	hasil3 := 3 * x3 + y3 -5
-
-	fmt.Println(hasil1)
-	fmt.Println(hasil2)
-	fmt.Println(hasil3)
-	fmt.Println(hitung(10, 5))
+	a := 10
+	fmt.Println(lulus(50))
+	fmt.Println(statusLulus(80))
+	fmt.Println(ambangAtas())
+	fmt.Println(hitung(a, 5) + 20) // a dan 5 ini adalah sebuah argumen
+	fmt.Println(hitung(20, 10))
+	fmt.Println(hitung(30, 1))
 }
