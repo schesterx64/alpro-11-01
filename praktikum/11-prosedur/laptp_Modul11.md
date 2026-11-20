@@ -119,7 +119,7 @@ func main() {
 
 
 #### Deskripsi
-Program untuk menyimpan data penduduk yang terdiri dari nama, tahun lahir, dan kota asal. Fungsi digunakan untuk menelusuri data penduduk dan menyimpan indeks yang cocok dengan tahun lahir kedalam pointer, 
+Program untuk menyimpan data penduduk yang terdiri dari nama, tahun lahir, dan kota asal. Fungsi digunakan untuk menelusuri data penduduk dan menyimpan indeks yang cocok dengan tahun lahir kedalam _pointer_, membandingkan tahun lahir didalam _array_ dan menyimpan data penduduk dengan tahun lahir terkecil kedalam _pointer_ `tua` dan tahun lahir terbesar kedalam _pointer_ `muda`.
 
 ## Kesimpulan
 Kesimpulan dari tugas pendahuluan ini yaitu cara penerapan prosedur dalam Go.

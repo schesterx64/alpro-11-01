@@ -86,7 +86,7 @@ func main() {
 }
 ```
 #### Deskripsi
-Membuat program untuk data mengolah skor pemain sebuah turnamen _game_. Fungsi digunakan untuk menghitung rata-rata skor, mencari pemain dengan skor tertinggi, dan mencari jumlah pemain yang skornya diatas rata-rata.
+Membuat program untuk mengolah skor pemain sebuah turnamen _game_. Fungsi digunakan untuk menghitung rata-rata skor, mencari pemain dengan skor tertinggi, dan mencari jumlah pemain yang skornya diatas rata-rata.
 
 ## Unguided
 
