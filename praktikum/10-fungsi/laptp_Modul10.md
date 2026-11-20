@@ -57,7 +57,7 @@ func main() {
 
 
 #### Deskripsi
-Program untuk menampilkan nama mata kuliah beserta nilai huruf, kemudian menampilkan rata-rata nilai seluruh mata kuliah. Ada tiga fungsi (`func`) didalam program ini. Fungsi pertama (`func nilaiHuruf(x int) string`) berguna untuk mengonversi nilai angka (`int`) menjadi nilai huruf (`string`). Fungsi kedua (`func rataRata(T tabRapot, n int) float64`) menjumlahkan seluruh nilai angka dan membaginya dengan jumlah mata kuliah untuk menghasilkan rata-rata nilai. Fungsi terakhir sekaligus fungsi utama (`func main`) merupakan titik masuk utama program yang berfungsi menyiapkan variabel array, membaca input, memanggil fungsi pertama dan fungsi kedua, 
+Program untuk menampilkan nama mata kuliah beserta nilai huruf, kemudian menampilkan rata-rata nilai seluruh mata kuliah. Ada tiga fungsi (`func`) didalam program ini. Fungsi pertama (`func nilaiHuruf(x int) string`) berguna untuk mengonversi nilai angka (`int`) menjadi nilai huruf (`string`). Fungsi kedua (`func rataRata(T tabRapot, n int) float64`) menjumlahkan seluruh nilai angka dan membaginya dengan jumlah mata kuliah untuk menghasilkan rata-rata nilai. Fungsi terakhir sekaligus fungsi utama (`func main`) merupakan titik masuk utama program yang berfungsi menyiapkan variabel, membaca input, memanggil fungsi pertama dan fungsi kedua, dan menampilkan output.
 
 ### 2. inputNilai.go
 
@@ -122,7 +122,7 @@ func main() {
 
 
 #### Deskripsi
-Program untuk 
+Program untuk input nilai ujian mahasiswa. Program akan membersihkan data duplikat, kemudian menghitung rata-rata dari data yang sudah bersih. Program ini memiliki 3 fungsi. Fungsi pertama (`func cariNIM(T students, n int, nim string) int`) digunakan untuk memeriksa apakah NIM yang dimasukkan sudah pernah dimasukkan sebelumnya. Fungsi kedua, (`func rataRata(T students, n int) float64`) digunakan untuk mencari rata-rata dari data yang sebelumnya sudah dibersihkan. Fungsi terakhir sekaligus fungsi utama (`func main()`) merupakan titik masuk utama program yang berfungsi menyiapkan variabel, membaca input, memanggil fungsi pertama dan fungsi kedua, dan menampilkan output.
 
 ## Kesimpulan
 Kesimpulan dari tugas pendahuluan ini yaitu cara penerapan fungsi atau `func` dalam sebuah program Go.
