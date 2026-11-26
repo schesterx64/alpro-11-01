@@ -117,7 +117,7 @@ func main() {
 }
 ```
 #### Deskripsi
-Membuat program untuk 
+Membuat program untuk menampung data curah hujan bulanan (dalam mm) dari sebuah kota dan menyimpannya di _array_. Kemudian, program menampilkan data awal, curah hujan terendah dan tertinggi beserta posisinya dalam _array_, rata-rata curah hujan, serta data setelah dibalik. _Array_ digunakan untuk menyimpan data dan digunakan kembali untuk membalik data urutan elemen.
 
 ## Unguided
 
@@ -208,7 +208,7 @@ func main() {
 ![Screenshot Output Unguided](./unguided/unguided_perpustakaan_output.png)
 
 #### Deskripsi
-Membuat program untuk 
+Membuat program untuk merapikan data buku. Data buku terdiri dari kode, judul, jumlah peminjaman, dan jumlah halaman buku dan disimpan didalam _array_. Kemudian, program menghapus buku yang kurang dari batas $X$. Terakhir, program menampilkan total peminjaman dan buku yang paling sering dipinjam, jika ada buku dengan jumlah peminjaman tertinggi yang sama, program akan menampilkan buku dengan jumlah halaman yang paling sedikit. _Array_ digunakan menyimpan variabel/elemen dalam program.
 
 
 ## Kesimpulan
